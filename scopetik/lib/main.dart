@@ -19,9 +19,11 @@ class MyApp extends StatelessWidget {
             options: DefaultFirebaseOptions.currentPlatform),
         builder: (context, snapshot) {
           if (snapshot.hasError) {
-            return const Scaffold(
-              body: Center(
-                child: Text('error'),
+            return const MaterialApp(
+              home: Scaffold(
+                body: Center(
+                  child: Text('error'),
+                ),
               ),
             );
           }
@@ -35,12 +37,14 @@ class MyApp extends StatelessWidget {
             );
           }
 
-          return const Scaffold(
-            body: Center(
-                child: CircularProgressIndicator(
-              color: Colors.blue,
-              value: 8.0,
-            )),
+          return const MaterialApp(
+            home: Scaffold(
+              body: Center(
+                  child: CircularProgressIndicator(
+                color: Colors.blue,
+                value: 8.0,
+              )),
+            ),
           );
         });
   }
