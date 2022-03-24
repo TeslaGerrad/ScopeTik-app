@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "198096055061",
+    "project_id": "scopetik-com",
+    "storage_bucket": "scopetik-com.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198096055061:android:cf41bb8518983c758dd71c",
+        "android_client_info": {
+          "package_name": "com.example.scopetik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198096055061-9u23csac72g6denl5hsltlrsv0cp6qut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyTK29k5MC_5PyPxreXdn-1Y01OU-iSaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198096055061-9u23csac72g6denl5hsltlrsv0cp6qut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
