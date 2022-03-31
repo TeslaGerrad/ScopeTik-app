@@ -2,6 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:scopetik/firebase_options.dart';
 
+import 'features/login/presentation/login.dart';
+
 void main() {
   WidgetsBinding.instance;
 
@@ -50,11 +52,3 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class Login extends StatelessWidget {
-  const Login({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
