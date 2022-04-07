@@ -4,7 +4,7 @@
 // import 'package:mockito/mockito.dart';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mockito/mockito.dart';
+// import 'package:mockito/mockito.dart';
 import 'package:scopetik/features/login/models/user_model.dart';
 
 //mocks the dependency class we nee to use in order to run the class we originally
