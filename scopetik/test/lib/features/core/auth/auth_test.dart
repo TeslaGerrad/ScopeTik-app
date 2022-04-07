@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:scopetik/features/login/data/login_data_impl.dart';
+import 'package:scopetik/features/core/auth/auth_impl.dart';
 
 class MockUser extends Mock implements User {}
 
@@ -19,11 +19,11 @@ class MockFirebaseAuth extends Mock implements FirebaseAuth {
 
 void main() {
   late MockFirebaseAuth mockAuth;
-  late LoginDataImpl sut;
+  late AuthImpl sut;
 
   setUp(() {
     mockAuth = MockFirebaseAuth();
-    sut = LoginDataImpl(firebaseAuth: mockAuth);
+    sut = AuthImpl(firebaseAuth: mockAuth);
   });
 
   group(

@@ -1,11 +1,11 @@
-import 'package:scopetik/features/login/data/login_data.dart';
-
 import 'package:firebase_auth/firebase_auth.dart';
 
-class LoginDataImpl implements LoginData {
+import 'auth.dart';
+
+class AuthImpl implements Auth {
   final FirebaseAuth firebaseAuth;
 
-  LoginDataImpl({
+  AuthImpl({
     required this.firebaseAuth,
   });
 

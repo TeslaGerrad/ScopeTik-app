@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 
 //interface for LoginData
-abstract class LoginData {
+abstract class Auth {
   //emits users current login status
   Stream<User?> get user;
 
